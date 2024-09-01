@@ -26,30 +26,10 @@ import { ALBUMS_2010_2 } from './ALBUMS_2010_2'
 import { ALBUMS_2007_2 } from './ALBUMS_2007_2'
 import { ALBUMS_2003 } from './ALBUMS_2003'
 import { ALBUMS_2001_1 } from './ALBUMS_2001_1'
-import { ALBUMS_1970_1977 } from './ALBUM_1970_1977'
-import { ALBUMS_1978_1988 } from './ALBUM_1978_1988'
-import { ALBUMS_1988_1995 } from './ALBUM_1988_1995'
 
 export const ALL_ALBUMS = [
   {
-    id: '1970-1994',
-    albums: [
-      {
-        id: '1970-1977',
-        albums: ALBUMS_1970_1977,
-      },
-      {
-        id: '1978-1988',
-        albums: ALBUMS_1978_1988,
-      },
-      {
-        id: '1989-1994',
-        albums: ALBUMS_1988_1995,
-      },
-    ],
-  },
-  {
-    id: '1995-2011',
+    id: '1995-2006',
     albums: [
       {
         id: '1995-2000',
@@ -83,6 +63,11 @@ export const ALL_ALBUMS = [
         id: '2006',
         albums: ALBUMS_2006,
       },
+    ],
+  },
+  {
+    id: '2007-2011',
+    albums: [
       {
         id: '2007-1',
         albums: ALBUMS_2007_1,
